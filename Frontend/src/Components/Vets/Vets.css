@@ -1,0 +1,25 @@
+.vetsContentDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mostOuterDiv1 {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.vetH1 {
+  padding: 15px 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.inputForm {
+  display: block;
+  padding: 7px 23px;
+  margin-bottom: 7px;
+}

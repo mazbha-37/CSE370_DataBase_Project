@@ -1,0 +1,30 @@
+.petContentDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.mainDiv {
+  padding: 20px 70px;
+}
+
+.petsBox {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.petDetails {
+  padding: 10px 13px;
+}
+
+.petDetails p {
+  padding: 5px 0px;
+}
+
+.inputForm {
+  display: block;
+  padding: 7px 23px;
+  margin-bottom: 7px;
+}

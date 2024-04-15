@@ -1,0 +1,45 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p,
+.p {
+  margin: 0px 0px 0px 0px !important;
+}
+
+.btn1 {
+  background-color: #ffa94d;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 15px;
+}
+
+.btn1:hover {
+  background-color: #fd7e14;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 15px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+import 'bootstrap/dist/css/bootstrap.min.css';
